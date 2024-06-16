@@ -27,10 +27,15 @@ namespace HomeWork3
             int sumCards = 0;
             int count = 1;
             int naminalCards = 0;
-            string K = "K";
-            string Q = "Q";
-            string J = "J";
-            string T = "T";
+            string king = "K";
+            string lady = "Q";
+            string jack = "J";
+            string Ace = "T";
+            int K = 10;
+            int Q = 10;
+            int J = 10;
+            int T = 10;
+
             if (numberCards > 0)
             {
                 Console.WriteLine("Введите наминал своих карт по одной карте: ");
@@ -64,35 +69,34 @@ namespace HomeWork3
                                 break;
                         }
                     }
-                    else
-                    {
+                    else if(!result)
+                    {   
                         switch (inputCards)
                         {
                             case "K":
                                 Console.WriteLine($"{count}-карта = Король");
-                                sumCards = sumCards + 10;
+                                sumCards += K;
                                 break;
                             case "Q":
                                 Console.WriteLine($"{count}-карта = Дама");
-                                sumCards = sumCards + 10;
+                                sumCards += Q;
                                 break;
                             case "J":
                                 Console.WriteLine($"{count}-карта = Валет");
-                                sumCards = sumCards + 10;
+                                sumCards += J;
                                 break;
                             case "T":
                                 Console.WriteLine($"{count}-карта = Туз");
-                                sumCards = sumCards + 10;
+                                sumCards += T;
                                 break;
                             default:
                                 Console.WriteLine("Такой карты в колоде нет");
                                 naminalCards = 0;
                                 break;
-                        }
-                       
+                        }  
                     }
                     count++;
-                    sumCards = sumCards + naminalCards;
+                    sumCards += naminalCards;
                 }
                 Console.WriteLine($"Ваше количество очков = {sumCards}");
             }

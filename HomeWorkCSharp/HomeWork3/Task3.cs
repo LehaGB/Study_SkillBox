@@ -19,6 +19,7 @@ namespace HomeWork3
                 if (n % i == 0)
                 {
                     simple = false;
+                    break;
                 }
                 i++;
             }
