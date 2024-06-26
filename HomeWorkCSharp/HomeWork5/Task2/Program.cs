@@ -8,7 +8,10 @@ namespace Task2
 {
     class Program
     {
-
+        /// <summary>
+        /// Разбиваем предложение на пробелы.
+        /// </summary>
+        /// <param name="inputPhrase">Входящее предложение</param>
         static void ReversWords(string inputPhrase)
         {
             string[] text = inputPhrase.Split(' ');
@@ -17,7 +20,11 @@ namespace Task2
 
         }
 
-
+        /// <summary>
+        /// Разворачиваем предложение в обратной последовательности.
+        /// </summary>
+        /// <param name="text">Входящее предложение</param>
+        /// <returns>Развернутое предложение</returns>
         static string Reverse(string text)
         {
             string reversed = String.Empty;
