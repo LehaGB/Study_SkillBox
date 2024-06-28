@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lecture1
 {
+    // Введение в профессию .NET Developer
     class Program
     {
         static void Main(string[] args)
