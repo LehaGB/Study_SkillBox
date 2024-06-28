@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lecture4._6
 {
-    //4.6 Массив массивов.
+    // 4.6 Массив массивов.
     class Program
     {
         static void Main(string[] args)
