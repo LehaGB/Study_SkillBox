@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lecture2
 {
+    // Базовые возможности C#
+
+
     class Program
     {
         static void Main(string[] args)
