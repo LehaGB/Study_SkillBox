@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lecture5._3
 {
-    //5.3 Перегрузка методов
+    // 5.3 Перегрузка методов.
     class Example1
     {
         static void Main(string[] args)

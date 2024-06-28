@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lecture5._3
 {
+
+    // 5.3 Перегрузка методов.
+
     class Example2
     {
         static int Sum(params int[] Args)
