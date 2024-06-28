@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lecture4._7
 {
-    //4.7 Цикл foreach
+    // 4.7 Цикл foreach.
     class Example3
     {
         static void Main(string[] args)
