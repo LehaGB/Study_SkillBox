@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lecture5._1
 {
-    //5.1 Разделение логики: использование методов
+    // 5.1 Разделение логики: использование методов.
     class Program
     {
         static void Main(string[] args)
