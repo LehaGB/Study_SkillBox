@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lecture3
 {
+    // Управляющие конструкции: ветвление и циклы
+
     class Example_005
     {
         //Ветвление(if-else)
