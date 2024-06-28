@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lecture5._4
 {
-    //5.4 Понятие рекурсивной функции
+    // 5.4 Понятие рекурсивной функции.
     class Example1
     {
         static void NotInfinity(int count)

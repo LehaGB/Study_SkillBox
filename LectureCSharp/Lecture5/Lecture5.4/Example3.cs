@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lecture5._4
 {
+
+    // 5.4 Понятие рекурсивной функции.
+
     class Example3
     {
 
