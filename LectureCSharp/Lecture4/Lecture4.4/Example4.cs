@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace Lecture4._4
 {
-    //Для каждой строки матрицы A[4x4] найти сумму элементов.
+
+    // 4.4 Двумерные массивы: использование, задание.
+
     class Example4
     {
+
+        //Для каждой строки матрицы A[4x4] найти сумму элементов.
         static void Main(string[] args)
         {
             Random rand = new Random();

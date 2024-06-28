@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lecture4._4
 {
+
+    // 4.4 Двумерные массивы: использование, задание.
+
     class Example1
     {
         static void Main(string[] args)
