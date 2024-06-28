@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Lecture4._5
 {
+
+    //4.5 Многомерные массивы: использование, задание.
+
     class Program
     {
-        //4.5 Многомерные массивы: использование, задание.
         static void Main(string[] args)
         {
             int[,,] matrix3D = new int[3, 4, 5];
