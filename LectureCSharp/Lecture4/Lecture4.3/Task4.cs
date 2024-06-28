@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lecture4._3
 {
+
+    // 4.3 Вложенные циклы, операторы break и continue.
+
     class Task4
     {
         // break, continue.

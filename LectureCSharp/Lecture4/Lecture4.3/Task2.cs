@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lecture4._3
 {
-    //4.3 Вложенные циклы, операторы break и continue
+    // 4.3 Вложенные циклы, операторы break и continue.
     class Task2
     {
         //Показать всевозиожные слова из алфавита S K I L
