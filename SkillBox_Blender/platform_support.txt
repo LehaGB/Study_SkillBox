@@ -1,0 +1,1 @@
+{ATI Technologies Inc./Radeon RX550/550 Series/4.5.0 Core Profile Context 24.1.1.231127}=SUPPORTED
