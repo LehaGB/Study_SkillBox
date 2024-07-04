@@ -20,27 +20,27 @@ namespace Lecture6._4
             // Дата
             // Описание заметки
 
-            //using (StreamWriter sw = new StreamWriter("data.csv", true, Encoding.Unicode))
-            //{
-            //    char key = 'д';
+            using (StreamWriter sw = new StreamWriter("data.csv", true, Encoding.Unicode))
+            {
+                char key = 'д';
 
-            //    do
-            //    {
-            //        string note = string.Empty;
-            //        Console.Write("\nВведите имя автора записи: ");
-            //        note += $"{Console.ReadLine()}\t";
+                do
+                {
+                    string note = string.Empty;
+                    Console.Write("\nВведите имя автора записи: ");
+                    note += $"{Console.ReadLine()}\t";
 
-            //        string now = DateTime.Now.ToShortTimeString();
-            //        Console.WriteLine($"Время заметки {now}");
-            //        note += $"{now}\t";
+                    string now = DateTime.Now.ToShortTimeString();
+                    Console.WriteLine($"Время заметки {now}");
+                    note += $"{now}\t";
 
-            //        Console.Write("Введите описание заметки: ");
-            //        note += $"{Console.ReadLine()}\t";
-            //        sw.WriteLine(note);
-            //        Console.Write("Продолжить н/д");
-            //        key = Console.ReadKey(true).KeyChar;
-            //    } while (char.ToLower(key) == 'д');
-            //}
+                    Console.Write("Введите описание заметки: ");
+                    note += $"{Console.ReadLine()}\t";
+                    sw.WriteLine(note);
+                    Console.Write("Продолжить н/д\n");
+                    key = Console.ReadKey(true).KeyChar;
+                } while (char.ToLower(key) == 'д');
+            }
 
 
             // Чтение
