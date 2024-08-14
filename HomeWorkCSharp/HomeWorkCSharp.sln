@@ -24,6 +24,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork7", "HomeWork7\HomeWork7\HomeWork7.csproj", "{33FCAD99-4C6D-42CF-A214-D27B45F41955}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomeWork7.1", "HomeWork7.1", "{D4EFEF62-17E8-4FAC-B1E3-429C4CBB34CC}"
+	ProjectSection(SolutionItems) = preProject
+		HomeWork7\HomeWork7\App.config = HomeWork7\HomeWork7\App.config
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork7.1", "HomeWork7.1\HomeWork7.1\HomeWork7.1.csproj", "{B37A26D4-93D8-40F0-AD50-590CF44BDB46}"
 EndProject
