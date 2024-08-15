@@ -11,7 +11,7 @@ namespace Lesson7._5
     {
         static void Main(string[] args)
         {
-            Staff3();
+            Staff3(3);
             Console.ReadKey();
         }
         public static void Staff()
@@ -40,8 +40,9 @@ namespace Lesson7._5
             Console.WriteLine(db2[3]);
         }
 
-        public static void Staff3()
+        public static Worker Staff3(int id)
         {
+            Worker worker = new Worker();
             Repository3 db3 = new Repository3(
                 new Worker("Должность_1", 10000, "Имя_1"),
                 new Worker("Должность_2", 10000, "Имя_2"),
@@ -49,8 +50,9 @@ namespace Lesson7._5
                 new Worker("Должность_4", 10000, "Имя_4"),
                 new Worker("Должность_5", 10000, "Имя_5")
                 );
-            Console.WriteLine(db3[3]);
-            Console.WriteLine(db3["6"]);
+            int a = db3[id].Length;
+            return new Worker(a.ToString());
         }
+        
     }
 }
