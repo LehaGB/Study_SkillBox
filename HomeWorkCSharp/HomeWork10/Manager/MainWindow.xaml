@@ -1,0 +1,42 @@
+﻿<Window x:Class="Manager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Manager"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800">
+    <Window.Resources>
+        <ImageBrush x:Key="image" ImageSource="C:\Users\manay\Desktop\Cod.jpg"/>
+    </Window.Resources>
+    <Window.Background>
+        <StaticResource ResourceKey="image"/>
+    </Window.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="250"/>
+            <RowDefinition Height="250"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="1" >
+            <Button x:Name="btnClick_Manager" 
+                    Height="50" 
+                    Width="200"
+                    Margin="-486 40 0 0"
+                    Content="Менеджер"
+                    FontSize="20"
+                    Background="Aquamarine" 
+                    Click="btnClick_Manager_Click"
+            />
+            <Button x:Name="btnClick_Consultant" 
+                    Height="50" 
+                    Width="200"
+                    Margin="-486 40 0 0"
+                    Content="Консультант"
+                    FontSize="20"
+                    Background="Aquamarine" 
+                    Click="btnClick_Consultant_Click"
+            />
+        </StackPanel>
+    </Grid>
+</Window>
