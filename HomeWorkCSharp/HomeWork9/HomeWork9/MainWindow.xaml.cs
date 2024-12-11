@@ -32,7 +32,7 @@ namespace HomeWork9
             // считываем ввод с клавиатуры
             string inputString = textBox_Input.Text;
 
-            // Разбиваемна пробелы
+            // Разбиваем на пробелы
             string[] words = inputString.Split(' ');
 
             // Список обЪекта Class1_Task1

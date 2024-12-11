@@ -107,7 +107,7 @@
         <!--вывод ответа задачи № 2-->
         <Grid Grid.Column="2" 
               Grid.Row="2"
-              Width="450"
+              Width="460"
               Height="200"
               HorizontalAlignment="Right"
               VerticalAlignment="Center">
